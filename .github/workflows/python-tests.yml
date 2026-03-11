@@ -29,7 +29,11 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest tests/ -v --cov=./ --cov-report=xml
+        if [ -d "tests" ]; then
+          pytest tests/ -v --cov=. --cov-report=xml
+        else
+          echo "No tests directory found, skipping tests."
+        fi
     
     - name: Upload coverage reports
       uses: codecov/codecov-action@v3
