@@ -1,0 +1,21 @@
+date,product,sales,quantity,region,customer_type
+2024-01-01,Product A,1500,25,North,Individual
+2024-01-02,Product B,2300,35,South,Business
+2024-01-03,Product A,1800,30,East,Individual
+2024-01-04,Product C,2100,28,West,Business
+2024-01-05,Product B,1900,32,North,Individual
+2024-01-06,Product A,2200,36,South,Individual
+2024-01-07,Product C,1700,27,East,Business
+2024-01-08,Product B,2400,40,West,Individual
+2024-01-09,Product A,1600,26,North,Business
+2024-01-10,Product C,2000,33,South,Individual
+2024-01-11,Product B,2100,35,East,Individual
+2024-01-12,Product A,1900,31,West,Business
+2024-01-13,Product C,2300,38,North,Individual
+2024-01-14,Product B,1800,30,South,Business
+2024-01-15,Product A,2200,36,East,Individual
+2024-01-16,Product C,2000,33,West,Individual
+2024-01-17,Product B,2400,40,North,Business
+2024-01-18,Product A,1700,28,South,Individual
+2024-01-19,Product C,1900,32,East,Business
+2024-01-20,Product B,2100,35,West,Individual

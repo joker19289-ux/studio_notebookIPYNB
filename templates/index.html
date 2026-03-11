@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>{{ app_name }}</h1>
+            <p class="subtitle">Jupyter Notebook Viewer</p>
+        </header>
+        
+        <main>
+            <div class="notebooks-section">
+                <h2>Available Notebooks</h2>
+                <div id="notebooks-list" class="notebooks-grid">
+                    <p class="loading">Loading notebooks...</p>
+                </div>
+            </div>
+            
+            <div id="notebook-viewer" class="notebook-viewer hidden">
+                <button id="back-btn" class="back-btn">← Back to List</button>
+                <div id="notebook-content"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

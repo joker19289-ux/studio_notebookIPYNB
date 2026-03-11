@@ -1,0 +1,8 @@
+{
+  "app_name": "Studio-NoteBookIPYNB",
+  "version": "1.0.0",
+  "notebooks_dir": "notebooks",
+  "datasets_dir": "datasets",
+  "outputs_dir": "outputs",
+  "port": 5000
+}
